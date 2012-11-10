@@ -72,6 +72,8 @@ public class TaskController {
 		model.addAttribute("searchParams", Servlets.encodeParameterStringWithPrefix(searchParams, "search_"));
 
 		return "task/taskList";
+		
+		
 	}
 
 	@RequestMapping(value = "create", method = RequestMethod.GET)
